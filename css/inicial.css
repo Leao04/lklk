@@ -1,0 +1,103 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.topo{
+    padding: 0;
+    margin: 0;
+    height: auto;
+    background-color: #009245;
+    display:flex;
+    align-items: center; 
+
+ /*REMOVER APÓS APRESENTAÇÃO */
+    margin-bottom: 40px;
+}
+
+.Titulo{
+    margin: 0px ;
+    font-size: 25px;
+    color:white;
+}
+
+.logo{
+    padding: 5px;
+    height: 70px;
+    margin: 0 320px 0 0;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.menu{
+    float: right;
+    margin: 0 0 0 350px;
+}
+
+.menu a{
+    margin: 5px;
+    text-decoration: none;
+    padding: 5px;
+    border: 2px #FFF solid;
+    text-align: center;
+    color: rgba(66, 50, 50, 0.582);
+    background-color: #FFF;
+}
+
+.menu a:hover{
+    font-weight: bolder;
+    
+}
+
+footer{
+    height: auto;
+     background-color: #009245;
+     color: #FFF;
+     padding: 0;
+     margin: 0;
+     display:flex;
+     justify-content: space-between;
+ }
+ 
+ .redes img{
+     height: 40px;
+     margin: 5px;
+ }
+ 
+ .redes {
+     justify-content: inline-block;
+     align-items: flex-end;
+ }
+ 
+ .contato{
+     display: inline-flex;
+     align-items: flex-end;
+ }
+ 
+ .contato img{
+     margin: 5px;
+     height: 38px;
+     margin: 5px;
+     padding-bottom: 2px;
+ }
+ 
+
+ /* REMOVER APÓS APRESENTAÇÃO */
+ .flex{
+    position:absolute;
+    bottom:0;
+    width:100%;
+ }
+/* REMOVER APÓS APRESENTAÇÃO */
+ .ajuste{
+     margin-left: 30px;
+ }
+
+
+
+

@@ -1,0 +1,124 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+ 
+}
+
+.topo{
+    padding: 0;
+    margin: 0;
+    height: auto;
+    background-color: #009245;
+    display:flex;
+    align-items: center; 
+
+}
+
+.Titulo{
+    margin: 0px ;
+    font-size: 25px;
+    color:white;
+}
+.menu{
+    float: right;
+    margin: 0 0 0 350px;
+}
+
+.menu a{
+    margin: 5px;
+    text-decoration: none;
+    padding: 5px;
+    border: 2px #FFF solid;
+    text-align: center;
+    color: rgba(66, 50, 50, 0.582);
+    background-color: #FFF;
+}
+
+.menu a:hover{
+    font-weight: bolder;
+    
+}
+
+.logo{
+    padding: 5px;
+    height: 70px;
+    margin: 0 320px 0 0;
+}
+h3{
+    padding: 10px;
+    background-color: #077038;
+    border-bottom: 1px;
+    color: #FFF;
+}
+h4{
+    padding: 10px;
+    margin: 1px solid;
+    color: rgba(51, 51, 51, 0.945);
+}
+
+p{
+    padding: 5px;
+}
+
+main img{
+       height: 200px;
+       padding-left: 5px;
+}
+
+.destaque{
+    font-weight: bolder;
+}
+
+.pedido{
+    text-decoration: none;
+    padding: 5px;
+    border: 2px solid rgba(51, 51, 51, 0.945);
+    color: rgba(51, 51, 51, 0.945);
+    justify-content: center;
+    margin: 600px;
+}
+
+main a :hover{
+    background-color: rgb(133, 205, 247);
+    font-weight: bolder;
+}
+
+footer{
+   height: auto;
+    background-color: #009245;
+    color: #FFF;
+    padding: 0;
+    margin-top: 10px;
+    display:flex;
+    justify-content: space-between; 
+}
+
+.redes img{
+    height: 40px;
+    margin: 5px;
+}
+
+.redes {
+    justify-content: inline-block;
+    align-items: flex-end;
+}
+
+.contato{
+    display: inline-flex;
+    align-items: flex-end;
+}
+
+.contato img{
+    margin: 5px;
+    height: 38px;
+    margin: 5px;
+    padding-bottom: 2px;
+}
+
+/* REMOVER APÓS APRESENTAÇÃO */
+.ajuste{
+    margin-left: 30px;
+}
+
+
